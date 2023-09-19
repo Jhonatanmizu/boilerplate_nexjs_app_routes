@@ -1,10 +1,12 @@
 import React from 'react'
+// Styles
+import * as S from './styles'
 
 const Main = () => {
   return (
-    <div>
+    <S.Wrapper>
       <h1>Hello world</h1>
-    </div>
+    </S.Wrapper>
   )
 }
 

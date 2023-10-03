@@ -16,8 +16,9 @@ This project uses lot of stuff as:
 
 ### Explanation :
 
-We need to make sure the code have a pattern, for this purpose is recommended the use of some tools to help this process.
-for code style in this boilerplate we use prettier with eslint, to make sure our code style doesn't look like a Frankenstein. In the other side we need test to validate what we are building, because of this we use some test library, here we use vitest to unit test. To make sure we do not push incorrectly code for our repository we use lint-staged and husky, they have a pre-commit config, before we commit run some steps to validate if something is not okay.
+By combining these tools and practices, we create a development process that promotes code quality, consistency, and collaboration among our team members. When a developer attempts to commit changes, these tools ensure that the code meets our coding standards and passes all necessary tests. If any issues are identified, developers are prompted to address them before proceeding with the commit. This early feedback loop minimizes the risk of introducing bugs and guarantees that our codebase remains cohesive and well-maintained.
+
+It's important to note that the specific configuration and utilization of these tools may vary based on our project's unique requirements and the technologies we use. We tailor their settings to align with our team's coding standards and project goals.
 
 ### How to use
 
